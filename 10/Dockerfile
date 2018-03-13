@@ -1,4 +1,4 @@
-FROM postgres:10
+FROM postgres:10.3
 
 RUN apt-get update \
   && for POSTGIS_VERSION in 2.4; do \
