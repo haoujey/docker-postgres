@@ -1,4 +1,4 @@
-FROM postgres:11.4
+FROM postgres:11.5
 
 RUN apt-get update \
   && for POSTGIS_VERSION in 2.5; do \
